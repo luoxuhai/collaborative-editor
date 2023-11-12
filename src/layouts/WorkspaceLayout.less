@@ -1,0 +1,31 @@
+.layout {
+  height: 100vh;
+  :global {
+    .ant-layout {
+      background: #fff;
+    }
+  }
+}
+
+.Sider {
+  width: 226px;
+
+  @media screen and (max-width: 576px) {
+    position: absolute;
+    top: 64px;
+    bottom: 0;
+    z-index: 9999;
+  }
+}
+
+.SiderCollapsed {
+  &::after {
+    position: absolute;
+    top: 0;
+    left: 200px;
+    width: calc(100vw - 200px);
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.2);
+    content: '';
+  }
+}

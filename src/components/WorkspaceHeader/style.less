@@ -1,0 +1,48 @@
+.CustomAvatar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+
+  p {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+}
+
+.TextLogo {
+  width: 200px;
+  margin-bottom: 0;
+  margin-left: -25px;
+
+  @media screen and (max-width: 576px) {
+    width: 108px;
+    margin-left: 0;
+    font-size: 18px;
+  }
+}
+
+:global(.ant-divider-horizontal) {
+  margin: 16px 0;
+}
+
+:global(.ant-layout-header) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+
+  @media screen and (max-width: 576px) {
+    padding: 0 5px;
+  }
+}
+
+.Menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .MenuItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+  }
+}

@@ -1,0 +1,25 @@
+.ToolBar {
+  position: fixed;
+  top: 64px;
+  right: 0;
+  left: 0;
+  z-index: 999;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: max-content;
+  min-height: 64px;
+  background-color: #f7f7f7;
+  box-shadow: rgba(100, 100, 100, 0.15) 0px 2px 3px 0px;
+
+  @media screen and (max-width: 576px) {
+    padding: 10px 0;
+  }
+
+  :global {
+    .ql-snow .ql-picker.ql-size {
+      width: 55px;
+    }
+  }
+}

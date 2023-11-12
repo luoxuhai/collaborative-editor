@@ -1,0 +1,15 @@
+{
+  "name": "实时协同编辑器",
+  "short_name": "实时协同编辑器",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fff",
+  "description": "基于React的跨平台实时协同编辑器",
+  "icons": [
+    {
+      "src": "./favicon.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    }
+  ]
+}

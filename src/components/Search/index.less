@@ -1,0 +1,19 @@
+.Search {
+  width: 300px;
+  vertical-align: middle;
+}
+
+.Link {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  &:hover {
+    background-color: #eee;
+    :global {
+      .ant-list-item-meta-title {
+        color: var(--antd-wave-shadow-color);
+      }
+    }
+  }
+}

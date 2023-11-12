@@ -1,0 +1,72 @@
+.page {
+  position: relative;
+  width: 72%;
+  margin: 0 auto;
+
+  @media screen and (max-width: 576px) {
+    width: 100%;
+  }
+}
+
+.page .title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.page .subtitle {
+  padding: 10px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.page .editor {
+  position: relative;
+  height: max-content;
+  min-height: 400px;
+  margin-top: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 5px #ddd;
+}
+
+.input-title {
+  padding: 70px 90px 0;
+  font-size: 22pt;
+
+  @media screen and (max-width: 576px) {
+    padding: 70px 10px 0;
+    font-size: 18pt;
+  }
+}
+
+.editor-container {
+  min-height: 400px;
+  padding: 0 15px;
+  font-size: 14pt;
+  border: none !important;
+
+  @media screen and (max-width: 576px) {
+    font-size: 13pt;
+    padding: 0 8px;
+  }
+}
+
+.ql-container .ql-editor ::selection {
+  color: inherit;
+  background-color: #e1f4de;
+}
+
+.page .content {
+  width: 660px;
+  margin: 0 auto;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+#toolbar {
+  border: none;
+}
+
+.ql-author-sidebar .ql-author-item .author-name {
+  width: max-content !important;
+}
